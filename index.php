@@ -99,7 +99,7 @@ if(isset($_FILES["file"])){
         <div class=\"card hover-shadow-lg\">
 	        <div class=\"card-body text-start pl-5\">
 		       <div class=\"avatar-parent-child\">
-			     <form action=\"campaign_files.php\" method=\"post\" enctype=\"multipart/form-data\">
+			     <form action=\"index.php\" method=\"post\" enctype=\"multipart/form-data\">
 		           <p class=\"form-control-label\">Select image to upload:<p>
 		           <input class=\"form-control\" enctype=\"multipart\" type=\"file\" name=\"file\" id = \"file\">
 		           <button class=\"btn btn-sm btn-primary rounded-pill mt-4 form-control w-50\" onclick=\"upload_file('N');\">Upload</button>
